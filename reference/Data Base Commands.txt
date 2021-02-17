@@ -1,0 +1,14 @@
+Data Base Commands:
+
+	Show Table:
+		SQL: SELECT * FROM Contacts;
+	
+	Add user - 
+		SQL:  INSERT INTO Contacts (FirstName, LastName, PhoneNumber, UserID) VALUES ("Gloria", "Giraldo", "3212762502", 1);
+
+		PHP:
+
+	Delete user - 
+		SQL: DELETE FROM Contacts WHERE FirstName = 'Gloria';
+
+		PHP:

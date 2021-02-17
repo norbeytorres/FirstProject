@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Add a Contact</title>
+	<script type="text/javascript" src="js/code.js"></script>
+    <link href="css/styles.css" rel="stylesheet">	
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	
+	<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() 
+	{
+		readCookie();
+	}, false);
+	</script>
+
+</head>
+<body>
+
+<h1 id="title">Add a Contact</h1>
+
+
+<div id="loggedInDiv">
+	<br />
+
+	<input type="text" id="addFirstNameText" placeholder="First Name"/><br />
+	<input type="text" id="addLastNameText" placeholder="Last Name"/><br />
+	<input type="text" id="addPhoneNumberText" placeholder="Phone Number"/><br />
+
+	<button type="button" id="addContactButton" class="buttons" onclick="addContacts();"> Add Contact </button><br />
+
+	<button type="button" id="goBackButton2" class="buttons" onclick="goBack();"> Go Back </button><br />
+
+	<span id="addContactSearchResult"></span>
+	<p id="addContactList">
+	</p><br />
+	<span id="contactAddResult"></span>
+</div>
+
+</body>
+</html>
